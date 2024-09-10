@@ -1,0 +1,9 @@
+spacy
+joblib
+nltk
+uvicorn
+pydantic
+fastapi
+typing
+pickle
+streamlit
