@@ -164,7 +164,7 @@ except Exception as e:
 #@app.route("/", methods=["GET,POST"])
 @app.route("/")
 def home():
-    return jsonify({"message": "Bienvenue dans l'API de prédiction de tags. Consultez /docs pour plus d'informations. Test du 11Sept 18H36"})
+    return jsonify({"message": "Bienvenue dans l'API de prédiction de tags. Consultez /docs pour plus d'informations. Test du 11Sept 18H45"})
 
 
 #@app.route("/predict", methods=["POST"])
