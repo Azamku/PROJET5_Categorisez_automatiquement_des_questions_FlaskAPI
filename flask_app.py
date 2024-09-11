@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
+import subprocess
 from flask import Flask, request, jsonify, abort
 # import joblib
 import pickle
-import subprocess
+
 # from utils import preprocess_text  # Assurez-vous que utils.py est dans le même répertoire
 # import pandas
 
