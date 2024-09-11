@@ -273,7 +273,7 @@ def predict_tags():
     #     return jsonify({"error": f"Erreur lors de la prédiction: {e}"}), 500
 
 
-@app.route('/webhook', methods=['POST'])
+@app.route('/webhook/', methods=['POST'])
 def webhook():
     if request.method == 'POST':
         # Optionally, verify the event came from GitHub
