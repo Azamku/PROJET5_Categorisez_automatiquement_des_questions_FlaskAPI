@@ -276,6 +276,7 @@ def predict_tags():
 
 @app.route('/webhook/', methods=['POST'])
 def webhook():
+    print("Webhook triggered")  # Ligne de débogage
     if request.method == 'POST':
         # Optionally, verify the event came from GitHub
         payload = request.json
