@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-import subprocess
 from flask import Flask, request, jsonify, abort
+import subprocess
 # import joblib
 import pickle
 
