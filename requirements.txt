@@ -7,3 +7,5 @@ fastapi
 typing
 pickle
 streamlit
+Flask==2.1.1  # version de Flask que j'utilise
+pytest==7.1.2  
