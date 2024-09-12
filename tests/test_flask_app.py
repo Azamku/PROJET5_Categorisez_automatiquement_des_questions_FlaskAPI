@@ -22,4 +22,4 @@ def test_webhook(client):
     """Test du webhook avec une requête POST valide"""
     response = client.post('/webhook/', json={})
     assert response.status_code == 200
-    assert b"Webhook received" in response.data
+    assert b"Deployed successfully" in response.data
