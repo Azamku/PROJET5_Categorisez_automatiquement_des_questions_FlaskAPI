@@ -20,6 +20,6 @@ def test_homepage(client):
 
 def test_webhook(client):
     """Test du webhook avec une requête POST valide"""
-    response = client.post('/webhook/', json={})
+    response = client.post('/webhook/', json={"ref": "refs/heads/main"})
     assert response.status_code == 200
     assert b"Deployed successfully" in response.data
